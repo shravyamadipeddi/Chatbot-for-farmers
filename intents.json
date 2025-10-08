@@ -1,0 +1,614 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup",
+            "Hi there, can you help me with something?",
+            "Hello! I have a question. Can you assist me?",
+            "Hey, I need your help with something.",
+            "Good morning/afternoon/evening! Can you answer a question for me?",
+            "Greetings! I need your assistance with something.",
+            "Hi,can you provide me with some information?",
+            "Hello, can you help me with a task?",
+            "Hey,I'm looking for some guidance. Can you help?",
+            "Good day! Can you assist me with a query?",
+            "Hi,I would like to ask you a question.",
+            "Hello",
+            "Hey there",
+            "Hi",
+            "Greetings",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Salutations",
+            "Howdy",
+            "Yo",
+            "Hiya",
+            "What's up",
+            "Sup",
+           "Hola",
+           "Bonjour",
+            "Ciao",
+            "Konnichiwa",
+            "Namaste",
+            "Salaam",
+            "Shalom",
+            "Good day",
+            "Pleasure to chat with you",
+            "It's great to talk with you",
+            "Hi chatbot",
+            "Hello chatbot",
+            "Hey chatbot",
+            "What's new",
+            "How's it going",
+            "What's happening",
+            "What can you do for me",
+            "How can I assist you",
+            "Can you help me",
+            "I need your help",
+            "I have a question",
+            "I'm here to chat",
+            "Let's talk",
+            "What's on your mind",
+            "What are you capable of doing",
+            "What brings you here"
+         ],
+         "responses": [
+            "Hello!",
+            "Hi there, how can I help?",
+            "Greetings, how may i help you?",
+            "Good day, what brings you here?",
+            "Howdy, what's on your mind?",
+            "Yo, what can I do for you?",
+            "Hey there, how may I assist you?",
+            "Welcome, what can I help you with?",
+            "Nice to meet you, how may I be of assistance?",
+            "Pleasure to chat with you, what can I do for you?",
+            "I'm a chatbot, how can I help you today?",
+            "My name is [bot name], what can I do for you?",
+            "I'm here to help, what can I assist you with?",
+            "What's up, how may I assist you today?",
+            "Hi, how can I be of service?",
+            "Good to see you, what can I help you with?",
+            "Hi there, what brings you to me?",
+            "I'm here to answer your questions, what would you like to know?",
+            "How may I be of assistance to you today?",
+            "Hi, what can I do for you today?",
+            "What can I help you with today?",
+            "I'm here to chat with you, what would you like to talk about?",
+            "How may I assist you in solving your problem?",
+            "I'm here to assist you, what can I do for you today?",
+            "Hi, how can I make your day better?",
+            "What can I do to assist you today?",
+            "I'm here to listen to you, what can I help you with?",
+            "Hi there, how may I assist you with your inquiry?",
+            "I'm here to answer your questions, what would you like to know",
+            "What can I help you with today?",
+            "I'm here to make your life easier, how can I assist you?",
+            "How can I help you today?",
+            "I'm here to make things easier for you, what can I do for you?",
+            "Hi, how can I assist you today?",
+            "What's on your mind, how may I assist you today?",
+            "How may I assist you in resolving your issue?",
+            "I'm here to assist you, what can I do for you today?",
+            "Hi there, what can I help you with?",
+            "How may I be of service to you today?",
+            "I'm here to assist you with your needs, what can I do for you?",
+            "How can I make your day better today?",
+            "I'm here to make things easier for you, what can I help you with?",
+            "Hi there, how may I assist you in solving your problem?",
+            "What can I help you with today",
+            "I'm here to help you out, what can I do for you?",
+            "How may I be of assistance today?",
+            "I'm here to provide answers to your questions, what would you like to know?",
+            "Hi, how can I help you today?",
+            "How may I assist you in achieving your goals?"
+         ],
+         "context_set": "greeting"
+      },
+      {
+         "tag": "weather_forecast",
+         "patterns": [
+            "What's the weather going to be like today?",
+            "Will it rain tomorrow?",
+            "Is a drought expected this year?",
+            "What is the forecast for this week?",
+            "Do I need to worry about frost tonight?"
+         ],
+         "responses": [
+            "The weather today will be sunny with a high of 32 degrees.",
+            "Light rain is expected tomorrow afternoon.",
+            "There are no current drought warnings for this year.",
+            "This week will have mixed weather with some rainy days.",
+            "No frost is expected tonight, temperatures will stay above freezing."
+         ]
+      },
+      {
+         "tag": "crop_prices",
+         "patterns": [
+            "What's the current price of wheat?"
+         ],
+         "responses": [
+            "The current price for wheat is \u20b92000 per quintal."
+         ]
+      },
+      {
+         "tag":"onions",
+         "patterns":[
+            "How much are onions selling for?"
+
+         ],
+         "responses":[
+            "Onions are selling at \u20b9500 per quintal."
+         ]
+      },
+      {
+         "tag":"rice",
+         "patterns":[
+            "What is the market rate for rice?"
+
+         ],
+         "responses":[
+            "The market rate for rice is \u20b93000 per quintal."
+         ]
+      },
+      {
+         "tag":"cotton",
+         "patterns":[
+            "Are cotton prices expected to rise?"
+
+         ],
+         "responses":[
+            "Cotton prices are expected to be stable in the upcoming months."
+         ]
+      },
+      {
+         "tag":"sugarcane",
+         "patterns":[
+            "What is the price of sugarcane per ton?"
+
+         ],
+         "responses":[
+            "Sugarcane is priced at \u20b9350 per ton."
+         ]
+      },
+      {
+         "tag": "agricultural_techniques",
+         "patterns": [
+            "How should I prepare my soil for planting?",
+            "What is the best way to increase crop yield?",
+            "How do I practice sustainable farming?",
+            "Can you tell me about organic farming practices?",
+            "What are some effective methods for irrigation?"
+         ],
+         "responses": [
+            "Soil preparation involves plowing, leveling, and applying organic matter.",
+            "Increasing crop yield can be achieved through crop rotation, proper fertilization, and pest control.",
+            "Sustainable farming involves using techniques that protect the environment, public health, and animal welfare.",
+            "Organic farming practices include the use of natural pesticides and fertilizers and crop rotation.",
+            "Effective irrigation methods include drip irrigation, sprinkler systems, and proper scheduling."
+         ]
+      },
+      {
+         "tag": "loans",
+         "patterns": [
+            "What subsidies are available for farmers?",
+            "Are there any government loans for farmers?", 
+            "How do I get benefits from the National Horticulture Mission?"
+         ],
+         "responses": [
+            "Farmers can avail of subsidies on seeds, fertilizers, and equipment.",
+            "You can apply for Pradhan Mantri Fasal Bima Yojana through the official portal or visit your nearest agriculture office.",
+           "Benefits from the National Horticulture Mission can be availed by registering on their official website or contacting the local agriculture office."
+         ]
+      },
+      {
+         "tag": "schemes",
+         "patterns": [
+            "what are the schemes available for farmers?",
+            "central government schemes for farmers",
+            "schemes for farmers",
+            "government schemes",
+            "What is the Kisan Credit Card scheme?",
+            "How can I apply for the Pradhan Mantri Fasal Bima Yojana?"
+            
+         ],
+         "responses": [
+            "For any queries about schemes <a target=\"_blank\" href=\"https://adil200.github.io/Farmer-Schemes/\"><u>click here</u></a>"            
+         ]
+      },
+      {
+         "tag": "farmer_assistance",
+         "patterns": [
+            "How can I get assistance for farming?",
+            "Is there any support available for farmers?",
+            "I need guidance on agricultural practices.",
+            "Can you help me with farming techniques?",
+            "What resources are available for farmers?"
+         ],
+         "responses": [
+            "Certainly! I can provide information on farming techniques, crop management, and more. How can I assist you today?",
+            "Farmers can access resources on sustainable farming, crop selection, and more. How can I help you with your farming queries?",
+            "Whether it's about crop yield improvement or soil management, feel free to ask any farming-related questions. I'm here to help!",
+            "Farmers often seek assistance in various aspects of agriculture. How can I guide you with your farming concerns?"
+         ]
+      },
+      {
+         "tag": "pest_management",
+         "patterns": [
+            "How do I control pests in my crops?",
+            "Can you suggest methods for pest management?",
+            "Dealing with crop pests, any advice?",
+            "What are effective ways to prevent crop diseases?",
+            "Pest control tips for farmers?"
+         ],
+         "responses": [
+            "Pest management is crucial for crop health. Consider using natural predators, proper crop rotation, and organic pesticides. Need more specific advice?",
+            "To control pests, integrated pest management (IPM) is effective. It combines biological, cultural, and chemical methods. How can I assist you further?",
+            "Farmers often combat pests through various strategies. What specific pests are you dealing with, and I can provide targeted advice?",
+            "Preventing crop diseases involves maintaining good hygiene, timely harvesting, and using disease-resistant crop varieties. Need guidance on a specific issue?"
+         ]
+      },
+      {
+         "tag": "crop_selection",
+         "patterns": [
+            "How do I choose the right crops for my farm?",
+            "Any tips for selecting crops based on soil type?",
+            "What factors should I consider when picking crops?",
+            "Crop selection advice for a beginner farmer?",
+            "Which crops are suitable for my region?"
+         ],
+         "responses": [
+            "Selecting crops depends on factors like soil type, climate, and market demand. Consider crops that align with your region's conditions and your goals.",
+            "Choosing the right crops involves assessing soil fertility, water availability, and market demand. Do you have specific preferences or constraints?",
+            "Farmers often consider factors like climate, soil quality, and market demand when selecting crops. How can I assist you in making the right choices?",
+            "For a beginner, start with crops suitable for your region and climate. Focus on understanding the local market and gradually diversify. Need more guidance?"
+         ]
+      },
+      {
+         "tag": "irrigation_methods",
+         "patterns": [
+            "What are effective methods for irrigation?",
+            "Can you suggest irrigation techniques for dry regions?",
+            "I need guidance on efficient water usage in farming.",
+            "Best practices for crop irrigation?",
+            "Tell me about modern irrigation systems."
+         ],
+         "responses": [
+            "Efficient irrigation is crucial for crop health. Drip irrigation and sprinkler systems are modern methods that save water. Need more details or advice?",
+            "In dry regions, consider techniques like drip irrigation and rainwater harvesting for sustainable water use in farming. How can I assist you further?",
+            "Optimizing water usage in farming involves using drip irrigation, mulching, and scheduling irrigation based on crop needs. Any specific concerns you'd like to address?",
+            "For effective crop irrigation, consider methods like drip, furrow, or flood irrigation based on your crop type and soil. What specific guidance are you looking for?",
+            "Modern irrigation systems like precision irrigation use technology to optimize water distribution. Is there a particular aspect of irrigation you'd like to explore?"
+         ]
+      },
+      {
+         "tag": "soil_management",
+         "patterns": [
+            "How should I prepare my soil for planting?",
+            "Tell me about soil enrichment techniques.",
+            "Best practices for maintaining soil fertility?",
+            "What are effective ways to prevent soil erosion?",
+            "I need guidance on organic soil management."
+         ],
+         "responses": [
+            "Soil preparation involves plowing, leveling, and adding organic matter. Crop rotation and cover cropping also enhance soil fertility. Need more details?",
+            "To enrich soil, consider using compost, cover crops, and organic fertilizers. Maintaining soil health is key to successful farming. How can I assist you further?",
+            "Maintaining soil fertility is vital. Crop rotation, proper fertilization, and organic amendments can help. Any specific questions on soil management?",
+            "Preventing soil erosion involves practices like contour plowing, cover cropping, and using windbreaks. What are your specific concerns regarding soil erosion?",
+            "Organic soil management focuses on natural amendments and sustainable practices. Are you looking for advice on transitioning to or improving organic farming?"
+         ]
+      },
+      {
+         "tag": "livestock_management",
+         "patterns": [
+            "How do I manage livestock on my farm?",
+            "Tell me about best practices in animal husbandry.",
+            "I need advice on raising healthy livestock.",
+            "What are the benefits of integrating livestock with crops?",
+            "Guide me on sustainable practices in livestock farming."
+         ],
+         "responses": [
+            "Managing livestock involves proper nutrition, shelter, and healthcare. Are you looking for specific advice on a particular aspect of animal husbandry?",
+            "Best practices in animal husbandry include providing proper nutrition, vaccination, and maintaining a clean environment. How can I assist you further?",
+            "Raising healthy livestock requires attention to nutrition, disease prevention, and proper housing. What specific aspects of livestock management would you like guidance on?",
+            "Integrating livestock with crops can have mutual benefits, such as nutrient cycling and pest control. Interested in learning more about integrated farming practices?",
+            "Sustainable livestock farming focuses on ethical practices, animal welfare, and environmental impact. Are you looking for guidance on specific sustainable practices in livestock management?"
+         ]
+      },
+      {
+         "tag": "organic_farming",
+         "patterns": [
+            "Tell me about organic farming practices.",
+            "How can I transition to organic farming?",
+            "Benefits of organic farming over conventional methods.",
+            "Organic pest control methods for crops.",
+            "I want to adopt eco-friendly farming practices."
+         ],
+         "responses": [
+            "Organic farming involves avoiding synthetic chemicals and using natural fertilizers and pesticides. Transitioning requires a shift to sustainable practices. How can I assist you further?",
+            "Transitioning to organic farming involves phasing out synthetic inputs and adopting practices like crop rotation and composting. Need guidance on specific aspects?",
+            "Organic farming promotes soil health, biodiversity, and reduces environmental impact. Interested in learning more about the benefits or specific techniques?",
+            "Organic pest control in crops includes methods like companion planting, beneficial insects, and neem-based solutions. Any specific pests you're dealing with?",
+            "Eco-friendly farming practices align with organic methods, focusing on sustainability and minimizing environmental impact. What specific eco-friendly practices are you interested in adopting?"
+         ]
+      },
+      {
+         "tag": "technology_in_agriculture",
+         "patterns": [
+            "How can technology benefit agriculture?",
+            "Tell me about modern farming technologies.",
+            "Use of drones in agriculture.",
+            "Precision farming techniques.",
+            "I want to explore tech solutions for my farm."
+         ],
+         "responses": [
+            "Technology benefits agriculture through precision farming, automation, and data-driven decision-making. How can I assist you in integrating technology on your farm?",
+            "Modern farming technologies include sensors, drones, and smart equipment. Interested in specific technologies or their applications in agriculture?",
+            "Drones in agriculture are used for crop monitoring, pest control, and mapping. Do you have specific questions about using drones on your farm?",
+            "Precision farming involves using data and technology to optimize crop yield. Interested in learning more about precision agriculture techniques?",
+            "Exploring tech solutions for your farm is a great idea! Depending on your needs, there are various tools available. What specific aspects are you interested in?"
+         ]
+      },
+      {
+         "tag": "climate_resilient_farming",
+         "patterns": [
+            "How can I make my farm more resilient to climate change?",
+            "Best practices for climate-resilient farming.",
+            "Adapting crops to changing climate conditions.",
+            "Dealing with extreme weather events in agriculture.",
+            "I want to ensure my farm is climate-smart."
+         ],
+         "responses": [
+            "Climate-resilient farming involves choosing climate-adapted crops, improving water management, and implementing sustainable practices. How can I assist you in building resilience?",
+            "Best practices for climate-resilient farming include crop diversification, water conservation, and soil health management. Interested in specific strategies for your farm?",
+            "Adapting crops to changing climate conditions involves selecting varieties with tolerance to heat, drought, or other climate-related challenges. Need guidance on specific crops?",
+            "Dealing with extreme weather events in agriculture requires preparation and resilient practices. Are you facing specific challenges due to extreme weather on your farm?",
+            "Ensuring your farm is climate-smart involves a holistic approach. What specific measures or information are you looking for to enhance your farm's resilience to climate change?"
+         ]
+      },
+      {
+         "tag": "crop_selection_india",
+         "patterns": [
+             "Which crops are suitable for cultivation in North India?",
+             "Tell me about crops suitable for the monsoon season in India.",
+             "Best crops for the winter season in South India.",
+             "I need advice on choosing crops for my farm in Maharashtra.",
+             "What are the recommended crops for the Kharif season in India?"
+         ],
+         "responses": [
+             "Crops like wheat, rice, and mustard are suitable for North India. Consider local weather patterns for optimal crop selection.",
+             "For the monsoon season, crops like rice, millets, and pulses are advisable. Adequate water management is crucial.",
+             "In South India during winter, consider crops like vegetables, legumes, and oilseeds. Soil preparation is key for a successful harvest.",
+             "For farms in Maharashtra, crops like sugarcane, soybeans, and vegetables are common. Assess your soil type and water availability for suitable choices.",
+             "Recommended crops for the Kharif season include rice, maize, and cotton. Understanding regional climate variations is essential for successful cultivation."
+         ]
+     },
+     {
+      "tag": "soil_health_management_india",
+      "patterns": [
+          "How can I improve soil health in my Andhra Pradesh farm?",
+          "Tell me about soil testing services for farmers in Tamil Nadu.",
+          "Best practices for organic soil management in Karnataka.",
+          "I need advice on preventing soil erosion in my Punjab farm.",
+          "What are the recommended soil amendments for Gujarat farmers?"
+      ],
+      "responses": [
+          "In Andhra Pradesh, focus on organic matter addition and cover cropping to enhance soil health. Consider crops suitable for the region.",
+          "For soil testing services in Tamil Nadu, contact your local agriculture department or visit a nearby agricultural university. Regular testing is beneficial.",
+          "Organic soil management in Karnataka involves practices like composting and crop rotation. Local organic farming associations can provide guidance.",
+          "To prevent soil erosion in Punjab, use practices like contour plowing and cover cropping. Assess your farm's specific needs for effective erosion control.",
+          "Recommended soil amendments for Gujarat farmers may include gypsum and organic compost. Consult with local agricultural experts for precise advice."
+      ]
+  },
+  {
+   "tag": "advanced_farming_techniques",
+   "patterns": [
+      "What is hydroponics?",
+      "Explain aquaponics in farming.",
+      "What is no-till farming?",
+      "How does laser leveling help in farming?",
+      "Benefits of using precision irrigation?"
+   ],
+   "responses": [
+      "Hydroponics is a method of growing plants in nutrient-rich water without soil.",
+      "Aquaponics combines fish farming and hydroponics, where fish waste provides nutrients for plants.",
+      "No-till farming avoids plowing to reduce soil erosion and maintain soil health.",
+      "Laser leveling ensures even distribution of water across fields, improving irrigation efficiency.",
+      "Precision irrigation minimizes water wastage by delivering water directly to the plant roots using techniques like drip irrigation."
+   ]
+},
+{
+   "tag": "organic_fertilizers",
+   "patterns": [
+      "What are natural fertilizers for farming?",
+      "How do I use vermicompost?",
+      "What is green manure?",
+      "Can I use cow dung for my crops?",
+      "Benefits of using organic fertilizers?"
+   ],
+   "responses": [
+      "Natural fertilizers like compost, manure, and bone meal provide nutrients without harming soil health.",
+      "Vermicompost is used by mixing it into the soil during planting or top-dressing after crops start growing.",
+      "Green manure involves growing cover crops and plowing them back into the soil to enhance its organic matter.",
+      "Cow dung is an excellent organic fertilizer. Ensure it is decomposed properly to avoid burning plants.",
+      "Organic fertilizers improve soil structure, boost microbial activity, and are environmentally friendly."
+   ]
+},
+{
+   "tag": "fertilizer_usage",
+   "patterns": [
+      "What is the best fertilizer for rice?",
+      "How do I apply fertilizers effectively?",
+      "What are organic fertilizers?",
+      "Can I use urea for all crops?",
+      "How to avoid overusing fertilizers?"
+   ],
+   "responses": [
+      "The best fertilizer for rice is nitrogen-rich fertilizers like urea, but timing and application methods are critical.",
+      "Apply fertilizers effectively by assessing soil tests, dividing doses, and applying during key crop growth stages.",
+      "Organic fertilizers include compost, manure, and bio-fertilizers that improve soil health without harmful chemicals.",
+      "Urea is suitable for many crops but should be used sparingly as overuse can harm the soil and the environment.",
+      "Avoid overusing fertilizers by conducting soil tests, using slow-release formulations, and monitoring crop health regularly."
+   ]
+},
+{
+   "tag": "ai_advanced_tech_in_farming",
+   "patterns": [
+      "How is AI used in agriculture?",
+      "What are the latest technologies in farming?",
+      "How can I use drones for my farm?",
+      "Tell me about AI-based pest detection.",
+      "How does technology improve farming efficiency?"
+   ],
+   "responses": [
+      "AI is used for tasks like crop monitoring, soil analysis, and yield prediction to improve decision-making in agriculture.",
+      "Latest technologies include drones, precision irrigation systems, IoT sensors, and autonomous tractors.",
+      "Drones can help with crop surveillance, mapping, and even spraying pesticides efficiently on large farms.",
+      "AI-based pest detection involves using image recognition to identify pests early and recommend targeted treatments.",
+      "Technology improves farming efficiency by reducing resource wastage, enhancing yields, and automating repetitive tasks."
+   ]
+},
+{
+   "tag": "organic_farming_techniques",
+   "patterns": [
+      "How do I prepare soil for organic farming?",
+      "What are effective organic pest control techniques?",
+      "How to make compost for organic farming?",
+      "What are cover crops in organic farming?",
+      "Best techniques for organic farming?"
+   ],
+   "responses": [
+      "Prepare soil for organic farming by adding compost, rotating crops, and using green manure to enhance fertility.",
+      "Organic pest control includes techniques like using neem oil, introducing beneficial insects, and intercropping.",
+      "To make compost, layer organic waste like vegetable scraps, dry leaves, and manure. Turn the pile regularly to aerate it.",
+      "Cover crops, like clover and rye, improve soil fertility and prevent erosion in organic farming systems.",
+      "Best techniques include crop rotation, mulching, organic pest management, and using natural fertilizers."
+   ]
+},
+{
+   "tag": "climate_resilient_farming",
+   "patterns": [
+      "What are drought-resistant crops?",
+      "How can I protect crops from floods?",
+      "What is agroforestry?",
+      "Can climate-smart farming increase yield?",
+      "How to prepare my farm for unpredictable weather?"
+   ],
+   "responses": [
+      "Drought-resistant crops include millets, sorghum, and chickpeas.",
+      "Protect crops from floods by building raised beds and ensuring proper drainage systems.",
+      "Agroforestry combines trees with crops to enhance biodiversity and reduce climate risks.",
+      "Yes, climate-smart farming can improve yield by adapting to environmental changes and using resources efficiently.",
+      "Prepare for unpredictable weather by diversifying crops, using weather forecasts, and improving soil health."
+   ]
+},
+{
+   "tag": "organic_farming",
+   "patterns": [
+      "What fertilizers are used in organic farming?",
+      "How can I control pests organically?",
+      "Benefits of organic farming?",
+      "Are there government incentives for organic farming?",
+      "What crops are best suited for organic farming?"
+   ],
+   "responses": [
+      "Organic farming uses fertilizers like compost, manure, and bone meal.",
+      "Control pests organically with neem oil, crop rotation, and natural predators like ladybugs.",
+      "Organic farming enhances soil health, reduces chemical use, and fetches premium prices in markets.",
+      "Yes, the government provides incentives such as financial aid for certification and subsidies on bio-fertilizers.",
+      "Crops like fruits, vegetables, and pulses are ideal for organic farming due to their market demand."
+   ]
+},
+{
+   "tag": "modern_farming_tech",
+   "patterns": [
+      "Tell me about AI in farming.",
+      "How can IoT help in agriculture?",
+      "What is vertical farming?",
+      "Can drones be used for pest control?",
+      "I want to know about automation in agriculture."
+   ],
+   "responses": [
+      "AI in farming is used for crop health monitoring, yield prediction, and automating repetitive tasks.",
+      "IoT helps monitor soil moisture, weather conditions, and even livestock health in real time.",
+      "Vertical farming is a method of growing crops in stacked layers, often indoors, using controlled environments.",
+      "Drones can effectively spray pesticides, monitor crops, and even create detailed farm maps for better planning.",
+      "Automation in agriculture includes robotic weeders, harvesters, and self-driving tractors, making farming more efficient."
+   ]
+},
+{
+   "tag": "crop_diseases",
+   "patterns": [
+      "How do I prevent fungal infections in rice?",
+      "What are common diseases in cotton plants?",
+      "My wheat crop has rust, what should I do?",
+      "How can I identify bacterial blight in sugarcane?",
+      "Best practices for avoiding crop diseases?"
+   ],
+   "responses": [
+      "Prevent fungal infections in rice by using fungicides like carbendazim and ensuring proper water management.",
+      "Common cotton diseases include boll rot and wilt. Regular monitoring and early fungicide application help control them.",
+      "Treat rust in wheat using rust-resistant varieties and foliar sprays with fungicides like propiconazole.",
+      "Identify bacterial blight in sugarcane through yellowing leaves and reddish-brown streaks. Use disease-free planting material for prevention.",
+      "Avoid crop diseases by maintaining good field hygiene, rotating crops, and using disease-resistant varieties."
+   ]
+},
+{
+   "tag": "crop_prices",
+   "patterns": [
+      "What's the current rate for tomatoes?",
+      "How much is soybean selling for?",
+      "Any updates on market rates for pulses?",
+      "What is the price of potatoes today?",
+      "Is the price of maize stable?"
+   ],
+   "responses": [
+      "Tomatoes are currently selling at ₹25 per kilogram.",
+      "Soybean prices are at ₹4000 per quintal today.",
+      "Pulses like tur dal are priced at ₹6000 per quintal in most markets.",
+      "Potatoes are available at ₹1500 per quintal.",
+      "Maize prices remain stable at ₹2000 per quintal."
+   ]
+},
+{
+   "tag": "weather_forecast",
+   "patterns": [
+      "What's the weather like this weekend?",
+      "Will there be heavy rains next week?",
+      "How hot will it be tomorrow?",
+      "What are the chances of hailstorms today?",
+      "Is the temperature suitable for planting wheat?"
+   ],
+   "responses": [
+      "This weekend is expected to be sunny with occasional clouds.",
+      "Heavy rains are forecasted for next week, so plan accordingly.",
+      "Tomorrow's temperature will range between 28°C and 35°C.",
+      "There's a low chance of hailstorms today, but stay updated on local advisories.",
+      "The temperature is perfect for planting wheat. Start preparation immediately!"
+   ]
+},
+{
+   "tag": "unrecognized_input",
+   "patterns": [
+      ".*"
+   ],
+   "responses": [
+      "I'm sorry, I didn't understand that. Can you rephrase?",
+      "I'm still learning! Can you provide more details?",
+      "That query seems unfamiliar. Would you like to ask something else?"
+   ]
+}
+
+
+      
+   ]
+}
